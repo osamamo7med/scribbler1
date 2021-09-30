@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.scss" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="body">
+    <header class="first_part">
+      <!-- nav_bar html part start here  -->
+
+      <div class="logo">
+        <img src="images/logo.svg" alt="photo" />
+      </div>
+      <div class="nav">
+        <div class="icon_div"><i class="fa fa-list-ul fa-2000px"></i></div>
+        <ul class="menu">
+          <li>
+            <a href="#"><i class="fa fa-book"></i> Documentaion</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-github"></i> Github</a>
+          </li>
+        </ul>
+      </div>
+      <div class="text">
+        <h1>scribbler</h1>
+        <br />
+        <p>take your markdown in terminal</p>
+        <div class="terminal">
+          <pre class="pre">
+            <code class="shell-session demo hljs nginx"><span class="hljs-attribute">hyperyolo</span> <span class="hljs-regexp">~ $</span> 
+            </code>
+          </pre>
+        </div>
+      </div>
+    </header>
+    <!-- second part start here  -->
+    <section class="second_part">
+      <div>
+        <h3>Installation</h3>
+        <ul id="tabcont">
+          <li data-pane=".o" class="active">linux</li>
+          <li data-pane=".t">mac</li>
+          <li data-pane=".th">win</li>
+        </ul>
+        <pre id="tabshow">
+          <code class="o" >$ gem install scribbler</code>
+          <code class="t">$ apt-get install scribbler</code>
+          <code class="th">$ brew install scribbler</code>
+        </pre>
+      </div>
+    </section>
+    <section id="third_part">
+      <div id="part">
+        <div class="article">
+          <h3>Fast & Light</h3>
+          <p>
+            Start writing your notes immediately in any terminal! No more time
+            wasted on navigating and opening your text editor.
+          </p>
+        </div>
+        <div class="article">
+          <h3>File Syncing</h3>
+          <p>
+            Save your file in Dropbox then you can access to it from anywhere.
+          </p>
+        </div>
+        <div class="article">
+          <h3>Secure</h3>
+          <p>Encrypt your notes optionally. No one can get to your secrets!</p>
+        </div>
+        <div class="article">
+          <h3>Configuration</h3>
+          <p>
+            Maintain all your settings in a single config.json file. Never need
+            to redo the setting every single time jotting down a note.
+          </p>
+        </div>
+        <div class="article">
+          <h3>Highlightings</h3>
+          <p>
+            For better readability, scribbler has a clean, beautiful color
+            scheme allow you to scan files fast
+          </p>
+        </div>
+        <div class="article">
+          <h3>Keybindings</h3>
+          <p>
+            You can expect common keybindings for scribbler. Customize
+            bindings.json for your own liking!
+          </p>
+        </div>
+      </div>
+      <div class="lists">
+        <ul class="markDown">
+          <h4>Markdown Keybindings</h4>
+          <li>Quit without saving<span>ctrl+c</span></li>
+          <li>Quit<span>cmd+s</span></li>
+          <li>Save<span>ctrl+d</span></li>
+          <li>Undo<span>cmd+z</span></li>
+        </ul>
+        <ul class="daFault">
+          <h4>Default Keybindings</h4>
+          <li><span>ctrl+a</span> insert link markdown</li>
+          <li><span>ctrl+i</span> insert image markdown</li>
+          <li><span>ctrl+v</span> insert Youtube video</li>
+          <li><span>ctrl+t</span> insert table</li>
+        </ul>
+      </div>
+      <div class="link">
+        <p>Read our documentation for advanced keybindings and customization</p>
+        <br /><br />
+        <a href="#">documentation </a>
+        <br />
+      </div>
+    </section>
+    <section id="fourth_part_footer">
+      <h3>changelog</h3>
+      <div class="parent_div">
+        <div class="version">
+          <h2>v0.7</h2>
+          <small>10/12/2017</small>
+        </div>
+        <div class="ulist">
+          <ul>
+            <li>Improving the writing workflow with better key bindings</li>
+            <li>Design updates</li>
+            <li>SSL Verification for web hooks</li>
+            <li>Render Emoji</li>
+          </ul>
+        </div>
+      </div>
+        <div class="parent_div">
+        <div class="version">
+          <h2>v0.6</h2>
+          <small>10/12/2017</small>
+        </div>
+        
+        <div class="ulist">
+          <ul>
+            <li>Adding Unicode support</li>
+            <li>Basic text highlighting</li>
+            <li>Fresh Design</li>
+          </ul>
+        </div>
+        </div>
+        <div class="parent_div">
+        <div class="version">
+          <h2>v0.5 <br /></h2>
+          <small>10/12/2017</small>
+        </div>
+        <div class="ulist">
+          <ul>
+            <li>Save default md file in new folders</li>
+            <li>Ability to quick search on existing notes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="last_click">
+        <a href="#">Checkout Full Log</a>
+      </div>
+      <div class="foot">
+    <h5> Scribbler is a free HTML template created exclusively for <span> Codrops </span></h5>.
+      </div>
+    </section>
+    <script src="js/events.js"></script>
+  </body>
+</html>
